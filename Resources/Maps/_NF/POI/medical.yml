@@ -11012,14 +11012,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -17.5,11.5
       parent: 1
-  - uid: 1487
-    components:
-    - type: Transform
-      pos: 11.5,36.5
-      parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: Fireplace
   entities:
   - uid: 1488
