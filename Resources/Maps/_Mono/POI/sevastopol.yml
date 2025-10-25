@@ -18807,11 +18807,6 @@ entities:
     - type: Transform
       pos: 22.5,-16.5
       parent: 1
-  - uid: 2847
-    components:
-    - type: Transform
-      pos: 23.5,-16.5
-      parent: 1
   - uid: 2848
     components:
     - type: Transform
