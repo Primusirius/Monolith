@@ -21634,13 +21634,7 @@ entities:
       parent: 1
 - proto: StairDark
   entities:
-  - uid: 2843
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -17.5,10.5
-      parent: 1
-  - uid: 2844
+- uid: 2844
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
