@@ -1,0 +1,36 @@
+- type: vessel
+  id: Sagittarius
+  parent: BaseVessel
+  name: SKR Sagittarius
+  description: The Sagittarius is the sirius' big brother, heavier firepower and more space while maintaing its chemistry bay.
+  price: 165000
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_Mono/Shuttles/Expedition/sagittarius.yml
+  guidebookPage: null
+  class:
+  - Expedition
+  - Chemistry
+  - Salvage
+  engine:
+  - AME
+
+- type: gameMap
+  id: Sagittarius
+  mapName: 'Sagittarius'
+  mapPath: /Maps/_Mono/Shuttles/Expedition/sagittarius.yml
+  minPlayers: 0
+  stations:
+    SiriusMk2:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Sagittarius EXP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
