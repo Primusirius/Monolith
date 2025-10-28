@@ -13440,3 +13440,28 @@ Entries:
   id: 1487
   time: '2025-10-27T04:41:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2494
+- author: kyres1
+  changes:
+    - type: Add
+      message: Added corner lattices for prettifying mapped ships
+  id: 1488
+  time: '2025-10-27T20:53:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2457
+- author: Primusirius
+  changes:
+    - type: Fix
+      message: >-
+        Made docs office more private and stopped people from overheating at new
+        MD.
+  id: 1489
+  time: '2025-10-27T23:32:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2500
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        You are now able to focus your vision ahead by pressing Space. It works
+        similarly to items like the Hristov scope and binoculars.
+  id: 1490
+  time: '2025-10-28T04:29:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2504
